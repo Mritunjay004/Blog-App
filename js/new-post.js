@@ -2,7 +2,7 @@
  * TODO: Finish submitNewPost function to submit form data to the API
  */
 
-const API_URL = 'http://localhost:3000/api/posts';
+const API_URL = 'https://blog-app-backenddd.herokuapp.com/api/posts';
 
 const submitNewPost = () => {
   // HINT: Use FormData to store data to send over
@@ -20,8 +20,6 @@ const submitNewPost = () => {
     method: 'POST',
     body: data,
   }).then(() => {
-    setTimeout(() => {
-      window.location.href = 'index.html';
-    }, 1000);
+    window.location.href = 'index.html';
   });
 };
