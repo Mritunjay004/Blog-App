@@ -22,7 +22,7 @@ const buildPosts = blogPosts => {
   for (blogPost of blogPosts) {
     const postImage = `${API_BASE_URL}${blogPost.post_image}`;
     const postDate = new Date(parseInt(blogPost.added_date, 10)).toDateString();
-    const postLink = `/post.html?id=${blogPost.id}`;
+    const postLink = `../post.html?id=${blogPost.id}`;
     blogPostsContent += `
       <a class="post-link" href="${postLink}">
         <div class="post">
