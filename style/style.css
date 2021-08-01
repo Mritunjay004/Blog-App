@@ -43,7 +43,7 @@ header::after {
   height: 100px;
   background-color: white;
   border-radius: 50%;
-  background-image: url(/assets/profile.jpg);
+  background-image: url(../assets/profile.jpg);
   background-size: cover;
 }
 
