@@ -21,7 +21,7 @@ header {
 
 .home-page header,
 .new-post-page header {
-  background-image: url(/assets/banner.jpeg);
+  background-image: url(/assets/Banner.jpeg);
 }
 
 header > * {
@@ -43,7 +43,7 @@ header::after {
   height: 100px;
   background-color: white;
   border-radius: 50%;
-  background-image: url(/assets/profile.jpg);
+  background-image: url(/assets/Profile.jpg);
   background-size: cover;
 }
 
