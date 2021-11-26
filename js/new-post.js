@@ -2,7 +2,7 @@
  * TODO: Finish submitNewPost function to submit form data to the API
  */
 
-const API_URL = 'https://blog-app-backenddd.herokuapp.com/api/posts';
+const API_URL = 'https://blog-app112.herokuapp.com/api/posts';
 
 const submitNewPost = () => {
   // HINT: Use FormData to store data to send over
