@@ -1,5 +1,5 @@
-const API_URL = 'https://blog-app112.herokuapp.com/api/posts';
-const API_BASE_URL = 'https://blog-app112.herokuapp.com/';
+const API_URL = 'https://blogging-appp.herokuapp.com/api/posts';
+const API_BASE_URL = 'https://blogging-appp.herokuapp.com/';
 
 window.onload = () => {
   getPosts();
