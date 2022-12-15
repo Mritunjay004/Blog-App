@@ -1,5 +1,5 @@
-const API_URL = 'https://blogging-appp.herokuapp.com/api/posts';
-const API_BASE_URL = 'https://blogging-appp.herokuapp.com/';
+const API_URL = 'https://blog-app-backend-i7fe.onrender.com/api/posts';
+const API_BASE_URL = 'https://blog-app-backend-i7fe.onrender.com/';
 
 window.onload = () => {
   getPosts();
